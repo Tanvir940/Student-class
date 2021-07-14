@@ -92,5 +92,5 @@ while command != "exit":
 print("Thank you for using this application")       
 
 f1.close()
-with open('students_names.txt', "w") as myfile:
-    myfile.write(str(Students_list))
+with open('students_names.txt', "w") as updatedFile:
+    updatedFile.write(str(Students_list))
